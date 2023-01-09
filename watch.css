@@ -1,0 +1,59 @@
+/* removing any pre-styling by default */
+body{
+    padding:0;
+    margin:0;
+    background-color: #ccc;
+}
+
+/* making image and watch info align at center */
+#image{
+    text-align: center;
+}
+
+#watch-info{
+    text-align: center;
+}
+
+/* doing little transition on hovering image */
+img{
+    height:55vh;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.65, -0.25, 0.25, 1.95);
+}
+img:hover{
+    height:50vh;
+}
+
+
+/* basic styling to h1,minutes and seconds */
+h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing:5px;
+    font-weight: 500;
+    font-size:4em;
+    text-align: center;
+}
+
+#min{
+    font-size:2.5em;
+    padding:5px;
+}
+
+#sec{
+    font-size: 1.5em;
+}
+
+/* using flex for button spacing (have used bootstrap for button styling)*/
+.button-details{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button{
+    width:8em;
+    padding:2px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}

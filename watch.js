@@ -48,7 +48,7 @@ interval = setInterval(startTimer);
 })
 
 
-stop.addEventListener('click', () => {
+stop.addEventListener('click', ()=> {
     clearInterval(interval);
     clicked = 0;
 })

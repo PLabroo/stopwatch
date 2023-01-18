@@ -9,8 +9,7 @@ Tech Stack:-
 
 / ********************** /
 
-Functionality of StopWatch 
-
+Functionality of StopWatch:
 1) Have 3 buttons to it start,stop and reset
 
 As the name suggests the three buttons do their respective jobs
